@@ -1,10 +1,10 @@
 # viraj mishra
 
-cs + math @ penn state, schreyer honors. 4.0 gpa, graduating december 2026. building cool stuff out of new york.
+cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building cool stuff out of New York.
 
-icpc team @ psu. pennapps winner (85+ teams). hackpsu winner. ukmt senior math challenge gold (top 6% nationwide).
+ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide).
 
-**open to work**: fall 2026 internships and full time roles starting january 2027.
+**open to work**: fall 2026 internships and full time roles starting January 2027.
 
 [email](mailto:viraj.mishra.81@gmail.com) / [linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra)
 
@@ -38,45 +38,45 @@ icpc team @ psu. pennapps winner (85+ teams). hackpsu winner. ukmt senior math c
 
 ## start here
 
-- 📈 **[polymath](https://github.com/VirajMishra1/polymath)** - bloomberg terminal for prediction markets. live polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path monte carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven. [live](https://polymath-app.vercel.app)
-- 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** - mcp server that turns claude into a travel agent with memory. 60 tools, zero api keys: flights, hidden city fares, visas, advisories, weather. tested on python 3.10-3.12 in ci. `pip install wander-agent`. [demo](https://x.com/virajm1shra/status/2059930318359109965)
-- 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at columbia's hackathon. 5 langchain agents score incident credibility, dijkstra routing with 600m penalty zones steers you around danger. ar camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
-- 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. mediapipe tracks the swing, hand velocity history becomes hook spin and axis tilt, cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
+- 📈 **[polymath](https://github.com/VirajMishra1/polymath)** - Bloomberg terminal for prediction markets. live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven. [live](https://polymath-app.vercel.app)
+- 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** - MCP server that turns Claude into a travel agent with memory. 60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI. `pip install wander-agent`. [demo](https://x.com/virajm1shra/status/2059930318359109965)
+- 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
+- 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
 
 ## ml + retrieval
 
-- 🦖 **[dino trainer](https://github.com/VirajMishra1/dino-trainer)** - double dqn agent for chrome dino, trained from a 9-value state vector. curriculum learning, behavior cloning warm start, replay memory. avg score 167.95 over 20 eval episodes, which is better than me. [demo](https://x.com/virajm1shra/status/2054838345243775170)
-- 🩺 **[medtrace](https://github.com/VirajMishra1/medtrace)** - clinical decision support over 15,000 pmc-patients records. hybrid bm25 + faiss retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. palantir build challenge. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
-- 📚 **[studybuddy](https://github.com/VirajMishra1/StudyBuddy)** - upload a pdf, ask it questions or generate a quiz. chunking, embeddings, faiss similarity search, gemini. won best streamlit + ai integration at hackpsu
+- 🦖 **[dino trainer](https://github.com/VirajMishra1/dino-trainer)** - double DQN agent for Chrome dino, trained from a 9-value state vector. curriculum learning, behavior cloning warm start, replay memory. avg score 167.95 over 20 eval episodes, which is better than me. [demo](https://x.com/virajm1shra/status/2054838345243775170)
+- 🩺 **[medtrace](https://github.com/VirajMishra1/medtrace)** - clinical decision support over 15,000 PMC-Patients records. hybrid BM25 + FAISS retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. Palantir build challenge. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
+- 📚 **[studybuddy](https://github.com/VirajMishra1/StudyBuddy)** - upload a pdf, ask it questions or generate a quiz. chunking, embeddings, FAISS similarity search, Gemini. won best Streamlit + AI integration at HackPSU
 
 ## solvers, games, experiments
 
-- 🟩 **[wordle signal](https://github.com/VirajMishra1/wordle-signal)** - chrome extension that solves wordle with shannon entropy, feedback patterns encoded as base-3 integers. also solves sedecordle (16 boards at once) with a hybrid early/endgame policy. [demo](https://x.com/virajm1shra/status/2049239820233331010)
-- 🐍 **[kinsnake](https://github.com/VirajMishra1/kinsnake)** - snake you steer by pointing your finger. react over websocket to fastapi, which talks to a C process over named pipes. built with friends for a systems class
-- 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** - paste an llm prompt, see what it costs in energy, co2 and water, get a leaner version back. cuts token usage by ~40%. won mlh's best use of auth0 at pennapps. [live](https://sustain-a-prompt.vercel.app)
+- 🟩 **[wordle signal](https://github.com/VirajMishra1/wordle-signal)** - Chrome extension that solves Wordle with Shannon entropy, feedback patterns encoded as base-3 integers. also solves Sedecordle (16 boards at once) with a hybrid early/endgame policy. [demo](https://x.com/virajm1shra/status/2049239820233331010)
+- 🐍 **[kinsnake](https://github.com/VirajMishra1/kinsnake)** - snake you steer by pointing your finger. React over WebSocket to FastAPI, which talks to a C process over named pipes. built with friends for a systems class
+- 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** - paste an LLM prompt, see what it costs in energy, CO2 and water, get a leaner version back. cuts token usage by ~40%. won MLH's Best Use of Auth0 at PennApps. [live](https://sustain-a-prompt.vercel.app)
 
 ## experience
 
-💼 **sig group** - software and ai engineer intern, june 2025 to august 2025
+💼 **SIG Group** - software and AI engineer intern, June 2025 to August 2025
 
-- built a scheduling platform with react and flask that replaced excel, cutting planning time from 3 hours to 30 minutes
-- deployed a rag pipeline (azure search) over internal docs, so 130 engineers resolve queries instantly
-- fine tuned yolov8 for defect detection on azure ml, hitting 84% precision with only 100 training samples
+- built a scheduling platform with React and Flask that replaced Excel, cutting planning time from 3 hours to 30 minutes
+- deployed a RAG pipeline (Azure Search) over internal docs, so 130 engineers resolve queries instantly
+- fine tuned YOLOv8 for defect detection on Azure ML, hitting 84% precision with only 100 training samples
 
-🏫 **penn state** - teaching assistant, august 2025 to present
+🏫 **Penn State** - teaching assistant, August 2025 to present
 
-- leading labs for 380+ students in digital logic design: boolean algebra, fsms, verilog hdl
+- leading labs for 380+ students in digital logic design: Boolean algebra, FSMs, Verilog HDL
 
 ## classwork
 
 the course projects live in private repos, but ask me about any of these:
 
-- ⚙️ **5-stage pipelined mips cpu** - 32-bit risc processor in verilog. full 5-stage pipeline with custom hazard detection and forwarding units so data hazards don't stall execution. cmpen 331 final
-- 🧠 **dynamic memory allocator** - malloc, free and realloc from scratch in C. implicit free list with boundary tags, then an explicit lifo free list so find-fit only scans free blocks, then footer optimization with a prev_alloc bit packed into headers so coalescing works without footers. cmpsc 473
-- 🗺️ **x86-64 kernel virtual memory** - built a working kernel in C: full 4-level page table hierarchy (pml4e through pte) in raw memory, identity-mapped 4gb for the kernel, separate user-space mapping, loaded cr3 myself, syscall dispatch from scratch. cmpsc 473
-- 🔀 **go-style buffered channels in C** - blocking and non-blocking send/receive plus a channel_select that multiplexes n channels at once, built on pthreads mutexes, condition variables and a shared semaphore. cmpsc 473
-- 💬 **mycord** - multithreaded terminal messenger in C. concurrent pthreads server, non-blocking tui straight from termios and ioctl. cmpsc 311 final
-- 📐 **conformal prediction for regression** - icp, cqr, jackknife and jackknife+ from scratch in python. all four hit the 90% coverage target on heteroscedastic insurance data with zero distributional assumptions, cqr's adaptive intervals beat icp's fixed-width bands, validated against mapie. math 415 honors project. [colab](https://colab.research.google.com/drive/1i310mljnIovhVaQYWi09W8PWgPB0r10x?usp=sharing)
+- ⚙️ **5-stage pipelined MIPS CPU** - 32-bit RISC processor in Verilog. full 5-stage pipeline with custom hazard detection and forwarding units so data hazards don't stall execution. CMPEN 331 final
+- 🧠 **dynamic memory allocator** - malloc, free and realloc from scratch in C. implicit free list with boundary tags, then an explicit LIFO free list so find-fit only scans free blocks, then footer optimization with a prev_alloc bit packed into headers so coalescing works without footers. CMPSC 473
+- 🗺️ **x86-64 kernel virtual memory** - built a working kernel in C: full 4-level page table hierarchy (PML4E through PTE) in raw memory, identity-mapped 4GB for the kernel, separate user-space mapping, loaded CR3 myself, syscall dispatch from scratch. CMPSC 473
+- 🔀 **Go-style buffered channels in C** - blocking and non-blocking send/receive plus a channel_select that multiplexes n channels at once, built on Pthreads mutexes, condition variables and a shared semaphore. CMPSC 473
+- 💬 **mycord** - multithreaded terminal messenger in C. concurrent Pthreads server, non-blocking TUI straight from termios and ioctl. CMPSC 311 final
+- 📐 **conformal prediction for regression** - ICP, CQR, jackknife and jackknife+ from scratch in Python. all four hit the 90% coverage target on heteroscedastic insurance data with zero distributional assumptions, CQR's adaptive intervals beat ICP's fixed-width bands, validated against MAPIE. MATH 415 honors project. [colab](https://colab.research.google.com/drive/1i310mljnIovhVaQYWi09W8PWgPB0r10x?usp=sharing)
 
 ## research
 
