@@ -1,6 +1,8 @@
 # viraj mishra
 
-cs + math @ penn state, schreyer honors. building cool stuff out of new york.
+cs + math @ penn state, schreyer honors. 4.0 gpa, graduating december 2026. building cool stuff out of new york.
+
+icpc team @ psu. pennapps winner (85+ teams). hackpsu winner. ukmt senior math challenge gold (top 6% nationwide).
 
 **open to work**: fall 2026 internships and full time roles starting january 2027.
 
@@ -23,6 +25,11 @@ cs + math @ penn state, schreyer honors. building cool stuff out of new york.
 ![FAISS](https://img.shields.io/badge/-FAISS-0081FB?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/-MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
@@ -46,7 +53,12 @@ cs + math @ penn state, schreyer honors. building cool stuff out of new york.
 
 - 🟩 **[wordle signal](https://github.com/VirajMishra1/wordle-signal)** - chrome extension that solves wordle with shannon entropy, feedback patterns encoded as base-3 integers. also solves sedecordle (16 boards at once) with a hybrid early/endgame policy. [demo](https://x.com/virajm1shra/status/2049239820233331010)
 - 🐍 **[kinsnake](https://github.com/VirajMishra1/kinsnake)** - snake you steer by pointing your finger. react over websocket to fastapi, which talks to a C process over named pipes. built with friends for a systems class
-- 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** - paste an llm prompt, see what it costs in energy, co2 and water, get a leaner version back. won mlh's best use of auth0 at pennapps. [live](https://sustain-a-prompt.vercel.app)
+- 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** - paste an llm prompt, see what it costs in energy, co2 and water, get a leaner version back. cuts token usage by ~40%. won mlh's best use of auth0 at pennapps. [live](https://sustain-a-prompt.vercel.app)
+
+## experience
+
+- 💼 **sig group** - software and ai engineer intern, summer 2025. built a react + flask scheduling platform that replaced excel and cut planning from 3 hours to 30 minutes, shipped a rag pipeline over internal docs that 130 engineers use to resolve queries, fine tuned yolov8 to 84% precision on just 100 training samples
+- 🏫 **penn state** - teaching assistant for digital logic design since august 2025, leading labs for 380+ students: boolean algebra, fsms, verilog
 
 ## classwork
 
@@ -61,8 +73,8 @@ the course projects live in private repos, but ask me about any of these:
 
 ## research
 
-- 🛡️ **llm agent security** - benchmarking prompt injection robustness across small Qwen models with InjecAgent, under Dr. Suman Saha. building a Task/Guard dual-model architecture that decouples instruction from execution, with a stateless tool-call authorization layer so untrusted external content can't trigger tool calls
-- 🗳️ **RAG for political science annotation** - testing whether RAG-based codebook retrieval improves zero-shot LLM annotation, extending Halterman & Keith (2025), under Dr. Qunhua Li and Dr. Cassandra Tai. FAISS pipeline with all-mpnet-base-v2 embeddings and Mistral 7B across three datasets (BFRS, CCC, Manifestos), running codebook ablation sweeps to find which structured fields drive classification F1. presented at Penn State's undergraduate research conference
+- 🛡️ **llm agent security** - benchmarking prompt injection attacks across small Qwen models with InjecAgent, 17 attack tools and 197 test cases, under Dr. Suman Saha. building a Task/Guard dual-model architecture that decouples instruction from execution, with a stateless tool-call authorization layer so untrusted external content can't trigger tool calls
+- 🗳️ **RAG for political science annotation** - testing whether RAG-based codebook retrieval improves zero-shot LLM annotation, extending Halterman & Keith (2025), under Dr. Qunhua Li and Dr. Cassandra Tai. automating annotation of 7,236 qualitative records with a FAISS pipeline, all-mpnet-base-v2 embeddings and Mistral 7B across three datasets (BFRS, CCC, Manifestos). 8 ablations across retrieval depth, prompt structure and model; best setup improves F1 by 0.175. presented at Penn State's undergraduate research conference
 
 ## right now
 
