@@ -57,8 +57,15 @@ icpc team @ psu. pennapps winner (85+ teams). hackpsu winner. ukmt senior math c
 
 ## experience
 
-- 💼 **sig group** - software and ai engineer intern, summer 2025. built a react + flask scheduling platform that replaced excel and cut planning from 3 hours to 30 minutes, shipped a rag pipeline over internal docs that 130 engineers use to resolve queries, fine tuned yolov8 to 84% precision on just 100 training samples
-- 🏫 **penn state** - teaching assistant for digital logic design since august 2025, leading labs for 380+ students: boolean algebra, fsms, verilog
+💼 **sig group** - software and ai engineer intern, june 2025 to august 2025
+
+- built a scheduling platform with react and flask that replaced excel, cutting planning time from 3 hours to 30 minutes
+- deployed a rag pipeline (azure search) over internal docs, so 130 engineers resolve queries instantly
+- fine tuned yolov8 for defect detection on azure ml, hitting 84% precision with only 100 training samples
+
+🏫 **penn state** - teaching assistant, august 2025 to present
+
+- leading labs for 380+ students in digital logic design: boolean algebra, fsms, verilog hdl
 
 ## classwork
 
