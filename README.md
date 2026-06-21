@@ -6,7 +6,7 @@ ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior
 
 **open to work**: fall 2026 internships and full time roles starting January 2027.
 
-[email](mailto:viraj.mishra.81@gmail.com) / [linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra)
+[linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra)
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
