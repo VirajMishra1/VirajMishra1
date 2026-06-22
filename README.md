@@ -2,11 +2,11 @@
 
 cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building cool stuff out of New York.
 
-ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). SIG software + AI intern (summer 2025). researching LLM agent security and RAG.
+ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). researching LLM agent security and RAG to label poli sci data.
 
 **open to work**: fall 2026 internships and full time roles starting January 2027. open to relocating. will need H-1B sponsorship eventually, on F-1 with CPT/OPT for now.
 
-interested in ai labs, infra, quant, and anything where the work is hard and shipped fast.
+interested to work anywhere where the work is hard and shipped fast.
 
 [email](mailto:viraj.mishra.81@gmail.com) / [linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra) / [resume](https://github.com/VirajMishra1)
 
