@@ -2,11 +2,13 @@
 
 cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building cool stuff out of New York.
 
-ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide).
+ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). SIG software + AI intern (summer 2025). researching LLM agent security and RAG.
 
-**open to work**: fall 2026 internships and full time roles starting January 2027.
+**open to work**: fall 2026 internships and full time roles starting January 2027. open to relocating. will need H-1B sponsorship eventually, on F-1 with CPT/OPT for now.
 
-[linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra)
+interested in ai labs, infra, quant, and anything where the work is hard and shipped fast.
+
+[email](mailto:viraj.mishra.81@gmail.com) / [linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra) / [resume](https://github.com/VirajMishra1)
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -45,6 +47,7 @@ ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior
 
 ## ml + retrieval
 
+- ⚽ **[worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)** - Dixon-Coles Poisson model fit on 13,779 international matches with time-decay weighting, Transfermarkt squad-value corrections, and xG substitution for WC 2022. predictions locked to git 60 minutes before kickoff and never edited. 10k Monte Carlo bracket sims updated live. 62.5% W/D/L accuracy on WC 2026 so far. [dashboard](https://virajmishra1.github.io/worldcup-forecaster/)
 - 🦖 **[dino trainer](https://github.com/VirajMishra1/dino-trainer)** - double DQN agent for Chrome dino, trained from a 9-value state vector. curriculum learning, behavior cloning warm start, replay memory. avg score 167.95 over 20 eval episodes, which is better than me. [demo](https://x.com/virajm1shra/status/2054838345243775170)
 - 🩺 **[medtrace](https://github.com/VirajMishra1/medtrace)** - clinical decision support over 15,000 PMC-Patients records. hybrid BM25 + FAISS retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. Palantir build challenge. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
 - 📚 **[studybuddy](https://github.com/VirajMishra1/StudyBuddy)** - upload a pdf, ask it questions or generate a quiz. chunking, embeddings, FAISS similarity search, Gemini. won best Streamlit + AI integration at HackPSU
@@ -85,4 +88,6 @@ the course projects live in private repos, but ask me about any of these:
 
 ## right now
 
-shipping wander agent updates, working on research, and answering my email: [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com)
+shipping wander agent updates, working on research, and answering my email.
+
+if you're hiring interns for fall 2026 or new grads for jan 2027, especially at ai labs, infra companies, or quant shops that sponsor — fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
