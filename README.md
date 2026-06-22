@@ -90,4 +90,4 @@ the course projects live in private repos, but ask me about any of these:
 
 shipping wander agent updates, working on research, and answering my email.
 
-if you're hiring interns for fall 2026 or new grads for jan 2027, especially at ai labs, infra companies, or quant shops that sponsor — fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
+if you're hiring interns for fall 2026 or new grads for jan 2027 fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
