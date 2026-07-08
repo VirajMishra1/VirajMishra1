@@ -45,7 +45,7 @@ interested to work anywhere where the work is hard and shipped fast.
 - 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** - MCP server that turns Claude into a travel agent with memory. 60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI. `pip install wander-agent`. [demo](https://x.com/virajm1shra/status/2059930318359109965)
 - 🔭 **[bench](https://github.com/VirajMishra1/bench)** - observability platform for AI agents. wrap your agent in one call: live dashboard, LLM eval scores, failure clustering, README badge, public leaderboard. npm + PyPI SDKs, Cloudflare Workers + Durable Objects. [live](https://bench.virajmishratakehome.workers.dev)
 
-  [![hacker-news-signal on bench](https://bench.virajmishratakehome.workers.dev/badge/VirajMishra1/hacker-news-signal.svg)](https://bench.virajmishratakehome.workers.dev/u/VirajMishra1/hacker-news-signal)
+  [![arxiv-ai-digest on bench](https://bench.virajmishratakehome.workers.dev/badge/VirajMishra1/arxiv-ai-digest.svg)](https://bench.virajmishratakehome.workers.dev/u/VirajMishra1/arxiv-ai-digest)
 - 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
 - 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
 
@@ -95,9 +95,9 @@ the course projects live in private repos, but ask me about any of these:
 this section rewrites itself daily from [worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)'s live numbers.
 
 <!-- WC_START -->
-the model's title favorites right now: 🇪🇸 Spain 34.7% · 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 17.4% · 🇫🇷 France 14.2%
+the model's title favorites right now: 🇪🇸 Spain 33.8% · 🇦🇷 Argentina 17.7% · 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 17.4%
 
-live track record: **68.8% W/D/L accuracy** over 32 scored matches (random guessing gets 33.3%). every prediction locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
+live track record: **62.5% W/D/L accuracy** (60/96 scored matches, random guessing gets 33.3%). every prediction locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
 <!-- WC_END -->
 
 ## wordle, against my solver
@@ -105,14 +105,14 @@ live track record: **68.8% W/D/L accuracy** over 32 scored matches (random guess
 one shared board a day, six guesses, anyone can play. [open an issue with your guess](https://github.com/VirajMishra1/VirajMishra1/issues/new?title=wordle+GUESS&body=replace+GUESS+in+the+title+with+your+five+letter+word%2C+then+submit.+the+bot+replies+in+about+30+seconds.) and a github action scores it, updates this board, and tells you what [my entropy solver](https://github.com/VirajMishra1/wordle-signal) would have played instead.
 
 <!-- WORDLE_START -->
-🟨⬛🟩🟨🟨 `C R A N E` — [@VirajMishra1](https://github.com/VirajMishra1), 11.2 bits (solver liked RAISE, 5.9 bits)
-⬜⬜⬜⬜⬜ `_ _ _ _ _`
-⬜⬜⬜⬜⬜ `_ _ _ _ _`
-⬜⬜⬜⬜⬜ `_ _ _ _ _`
-⬜⬜⬜⬜⬜ `_ _ _ _ _`
-⬜⬜⬜⬜⬜ `_ _ _ _ _`
+🟨⬛🟩🟨🟨 `C R A N E` · 11.2 bits · [@VirajMishra1](https://github.com/VirajMishra1)  
+⬜⬜⬜⬜⬜ `_ _ _ _ _`  
+⬜⬜⬜⬜⬜ `_ _ _ _ _`  
+⬜⬜⬜⬜⬜ `_ _ _ _ _`  
+⬜⬜⬜⬜⬜ `_ _ _ _ _`  
+⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 
-1 possible words remain. board resets at midnight UTC.
+1 possible word remains. board resets at midnight UTC.
 <!-- WORDLE_END -->
 
 ## right now

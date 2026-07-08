@@ -106,23 +106,27 @@ def fresh_state(date_str, prev_answer=None, prev_solved=None):
 
 
 def render(state, cands_left):
-    lines = []
+    # board rows end with two spaces: markdown hard line break, otherwise
+    # github collapses the whole board into one wrapped paragraph
+    rows = []
     for g in state["guesses"]:
         squares = "".join(SQUARES[c] for c in g["pattern"])
         letters = " ".join(g["word"].upper())
-        lines.append(
-            f"{squares} `{letters}` — [@{g['user']}](https://github.com/{g['user']}), "
-            f"{g['bits']:.1f} bits (solver liked {g['solver_pick'].upper()}, {g['solver_bits']:.1f} bits)"
+        rows.append(
+            f"{squares} `{letters}` · {g['bits']:.1f} bits · "
+            f"[@{g['user']}](https://github.com/{g['user']})"
         )
     for _ in range(MAX_GUESSES - len(state["guesses"])):
-        lines.append("⬜⬜⬜⬜⬜ `_ _ _ _ _`")
+        rows.append("⬜⬜⬜⬜⬜ `_ _ _ _ _`")
+    lines = [r + "  " for r in rows]
     lines.append("")
     if state["solved"]:
         lines.append(f"**solved in {len(state['guesses'])}.** new word at midnight UTC.")
     elif len(state["guesses"]) >= MAX_GUESSES:
         lines.append("**out of guesses.** the word reveals itself at midnight UTC.")
     else:
-        lines.append(f"{cands_left} possible words remain. board resets at midnight UTC.")
+        word_s = "word remains" if cands_left == 1 else "words remain"
+        lines.append(f"{cands_left} possible {word_s}. board resets at midnight UTC.")
     if state.get("yesterday"):
         outcome = "solved" if state.get("yesterday_solved") else "unsolved"
         lines.append(f"yesterday's word: **{state['yesterday'].upper()}** ({outcome})")
