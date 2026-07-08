@@ -1,0 +1,51 @@
+name: wordle
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: readme-write
+
+jobs:
+  guess:
+    if: startsWith(github.event.issue.title, 'wordle')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # issue title and username are untrusted input: both only ever enter
+      # the shell through quoted env vars, never inline ${{ }} interpolation
+      - name: process guess
+        id: guess
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          WORD="$(printf '%s' "$TITLE" | sed 's/^wordle//' | tr -cd '[:alpha:]')"
+          python3 scripts/wordle.py --guess "$WORD" --user "$PLAYER" >> "$GITHUB_OUTPUT"
+
+      - name: commit board
+        if: steps.guess.outputs.updated == 'true'
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md wordle/state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "wordle: guess by @$PLAYER"
+          git pull --rebase origin main
+          git push
+
+      - name: reply and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --body-file /tmp/wordle_comment.md
+          gh issue close "$ISSUE"

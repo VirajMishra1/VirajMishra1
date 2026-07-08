@@ -44,6 +44,8 @@ interested to work anywhere where the work is hard and shipped fast.
 - 📈 **[polymath](https://github.com/VirajMishra1/polymath)** - Bloomberg terminal for prediction markets. live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven. [live](https://polymath-app.vercel.app)
 - 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** - MCP server that turns Claude into a travel agent with memory. 60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI. `pip install wander-agent`. [demo](https://x.com/virajm1shra/status/2059930318359109965)
 - 🔭 **[bench](https://github.com/VirajMishra1/bench)** - observability platform for AI agents. wrap your agent in one call: live dashboard, LLM eval scores, failure clustering, README badge, public leaderboard. npm + PyPI SDKs, Cloudflare Workers + Durable Objects. [live](https://bench.virajmishratakehome.workers.dev)
+
+  [![hacker-news-signal on bench](https://bench.virajmishratakehome.workers.dev/badge/VirajMishra1/hacker-news-signal.svg)](https://bench.virajmishratakehome.workers.dev/u/VirajMishra1/hacker-news-signal)
 - 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
 - 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
 
@@ -88,8 +90,38 @@ the course projects live in private repos, but ask me about any of these:
 - 🛡️ **llm agent security** - benchmarking prompt injection attacks across small Qwen models with InjecAgent, 17 attack tools and 197 test cases, under Dr. Suman Saha. building a Task/Guard dual-model architecture that decouples instruction from execution, with a stateless tool-call authorization layer so untrusted external content can't trigger tool calls
 - 🗳️ **RAG for political science annotation** - testing whether RAG-based codebook retrieval improves zero-shot LLM annotation, extending Halterman & Keith (2025), under Dr. Qunhua Li and Dr. Cassandra Tai. automating annotation of 7,236 qualitative records with a FAISS pipeline, all-mpnet-base-v2 embeddings and Mistral 7B across three datasets (BFRS, CCC, Manifestos). 8 ablations across retrieval depth, prompt structure and model; best setup improves F1 by 0.175. presented at Penn State's undergraduate research conference
 
+## wc 2026, according to my model
+
+this section rewrites itself daily from [worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)'s live numbers.
+
+<!-- WC_START -->
+the model's title favorites right now: 🇪🇸 Spain 34.7% · 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 17.4% · 🇫🇷 France 14.2%
+
+live track record: **68.8% W/D/L accuracy** over 32 scored matches (random guessing gets 33.3%). every prediction locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
+<!-- WC_END -->
+
+## wordle, against my solver
+
+one shared board a day, six guesses, anyone can play. [open an issue with your guess](https://github.com/VirajMishra1/VirajMishra1/issues/new?title=wordle+GUESS&body=replace+GUESS+in+the+title+with+your+five+letter+word%2C+then+submit.+the+bot+replies+in+about+30+seconds.) and a github action scores it, updates this board, and tells you what [my entropy solver](https://github.com/VirajMishra1/wordle-signal) would have played instead.
+
+<!-- WORDLE_START -->
+⬜⬜⬜⬜⬜ `_ _ _ _ _`
+⬜⬜⬜⬜⬜ `_ _ _ _ _`
+⬜⬜⬜⬜⬜ `_ _ _ _ _`
+⬜⬜⬜⬜⬜ `_ _ _ _ _`
+⬜⬜⬜⬜⬜ `_ _ _ _ _`
+⬜⬜⬜⬜⬜ `_ _ _ _ _`
+
+2315 possible words remain. board resets at midnight UTC.
+<!-- WORDLE_END -->
+
 ## right now
 
 working on research and answering my email.
 
 if you're hiring interns for fall 2026 or new grads for jan 2027 fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VirajMishra1/VirajMishra1/output/github-snake-dark.svg" />
+  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/VirajMishra1/VirajMishra1/output/github-snake.svg" />
+</picture>

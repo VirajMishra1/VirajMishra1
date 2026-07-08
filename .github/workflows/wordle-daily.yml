@@ -1,0 +1,31 @@
+name: wordle new day
+
+on:
+  schedule:
+    - cron: "3 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-write
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: reset board
+        run: python3 scripts/wordle.py --new-day
+
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md wordle/state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "wordle: new board"
+          git pull --rebase origin main
+          git push
