@@ -2,13 +2,13 @@
 
 cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building cool stuff out of New York.
 
-ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). SIG software + AI intern (summer 2025). researching LLM agent security and RAG.
+ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). researching LLM agent security and RAG to label poli sci data.
 
-**open to work**: fall 2026 internships and full time roles starting January 2027. open to relocating. will need H-1B sponsorship eventually, on F-1 with CPT/OPT for now.
+**open to work**: fall 2026 internships and full time roles starting January 2027. open to relocating, on F-1 with CPT/OPT for now.
 
-interested in ai labs, infra, quant, and anything where the work is hard and shipped fast.
+interested to work anywhere where the work is hard and shipped fast.
 
-[email](mailto:viraj.mishra.81@gmail.com) / [linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra) / [resume](https://github.com/VirajMishra1)
+[linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra)
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -42,7 +42,7 @@ interested in ai labs, infra, quant, and anything where the work is hard and shi
 
 - 📈 **[polymath](https://github.com/VirajMishra1/polymath)** - Bloomberg terminal for prediction markets. live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven. [live](https://polymath-app.vercel.app)
 - 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** - MCP server that turns Claude into a travel agent with memory. 60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI. `pip install wander-agent`. [demo](https://x.com/virajm1shra/status/2059930318359109965)
-- 🔭 **[bench](https://github.com/VirajMishra1/bench)** - observability platform for AI agents. one function call wraps your agent and gives you a live dashboard, LLM-as-judge eval scores (Llama 3.3 70B), failure pattern clustering, and a live README badge. public leaderboard, side-by-side agent compare, and a read-only MCP server for agent discovery. npm + PyPI SDKs with framework adapters for Anthropic, OpenAI, and Vercel AI SDK. built on Cloudflare Workers, Durable Objects, D1, and Workflows. [live](https://bench.virajmishratakehome.workers.dev)
+- 🔭 **[bench](https://github.com/VirajMishra1/bench)** - observability platform for AI agents. wrap your agent in one call: live dashboard, LLM eval scores, failure clustering, README badge, public leaderboard. npm + PyPI SDKs, Cloudflare Workers + Durable Objects. [live](https://bench.virajmishratakehome.workers.dev)
 - 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
 - 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
 
@@ -91,4 +91,4 @@ the course projects live in private repos, but ask me about any of these:
 
 shipping wander agent updates, working on research, and answering my email.
 
-if you're hiring interns for fall 2026 or new grads for jan 2027, especially at ai labs, infra companies, or quant shops that sponsor — fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
+if you're hiring interns for fall 2026 or new grads for jan 2027 fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
