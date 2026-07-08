@@ -2,17 +2,18 @@
 
 cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building cool stuff out of New York.
 
-ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). researching LLM agent security and RAG to label poli sci data.
+ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). researching LLM agent security and RAG for political science codebook annotation.
 
 **open to work**: fall 2026 internships and full time roles starting January 2027. open to relocating, on F-1 with CPT/OPT for now.
 
 interested to work anywhere where the work is hard and shipped fast.
 
-[linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra)
+[linkedin](https://www.linkedin.com/in/viraj-mishra/) / [x](https://x.com/virajm1shra) / [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com)
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Verilog](https://img.shields.io/badge/-Verilog-1B5E20?style=flat-square)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -27,7 +28,6 @@ interested to work anywhere where the work is hard and shipped fast.
 ![FAISS](https://img.shields.io/badge/-FAISS-0081FB?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/-MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white)
-![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -35,6 +35,7 @@ interested to work anywhere where the work is hard and shipped fast.
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 *most of what's below is live. click around.*
 
@@ -89,6 +90,6 @@ the course projects live in private repos, but ask me about any of these:
 
 ## right now
 
-shipping wander agent updates, working on research, and answering my email.
+working on research and answering my email.
 
 if you're hiring interns for fall 2026 or new grads for jan 2027 fastest way to reach me is [viraj.mishra.81@gmail.com](mailto:viraj.mishra.81@gmail.com). i reply within a day.
