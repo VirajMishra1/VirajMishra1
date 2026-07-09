@@ -1,22 +1,7 @@
 {
-  "date": "2026-07-08",
-  "guesses": [
-    {
-      "word": "crane",
-      "pattern": [
-        1,
-        0,
-        2,
-        1,
-        1
-      ],
-      "user": "VirajMishra1",
-      "bits": 11.18,
-      "solver_pick": "raise",
-      "solver_bits": 5.88
-    }
-  ],
+  "date": "2026-07-09",
+  "guesses": [],
   "solved": false,
-  "yesterday": null,
-  "yesterday_solved": null
+  "yesterday": "enact",
+  "yesterday_solved": false
 }
