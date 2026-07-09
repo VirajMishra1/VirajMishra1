@@ -105,14 +105,14 @@ live track record: **62.5% W/D/L accuracy** (60/96 scored matches, random guessi
 one shared board a day, six guesses, anyone can play. [open an issue with your guess](https://github.com/VirajMishra1/VirajMishra1/issues/new?title=wordle+GUESS&body=replace+GUESS+in+the+title+with+your+five+letter+word%2C+then+submit.+the+bot+replies+in+about+30+seconds.) and a github action scores it, updates this board, and tells you what [my entropy solver](https://github.com/VirajMishra1/wordle-signal) would have played instead.
 
 <!-- WORDLE_START -->
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
+🟨⬛🟩⬛🟨 `R A I S E` · 7.6 bits · [@VirajMishra1](https://github.com/VirajMishra1)  
 ⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 ⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 ⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 ⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 ⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 
-2315 possible words remain. board resets at midnight UTC.
+12 possible words remain. board resets at midnight UTC.
 yesterday's word: **ENACT** (unsolved)
 <!-- WORDLE_END -->
 
