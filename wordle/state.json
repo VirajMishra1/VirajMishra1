@@ -1,22 +1,7 @@
 {
-  "date": "2026-07-09",
-  "guesses": [
-    {
-      "word": "raise",
-      "pattern": [
-        1,
-        0,
-        2,
-        0,
-        1
-      ],
-      "user": "VirajMishra1",
-      "bits": 7.59,
-      "solver_pick": "raise",
-      "solver_bits": 5.88
-    }
-  ],
+  "date": "2026-07-10",
+  "guesses": [],
   "solved": false,
-  "yesterday": "enact",
+  "yesterday": "dried",
   "yesterday_solved": false
 }
