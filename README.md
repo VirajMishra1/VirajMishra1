@@ -95,9 +95,9 @@ the course projects live in private repos, but ask me about any of these:
 this section rewrites itself daily from [worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)'s live numbers.
 
 <!-- WC_START -->
-the model's title favorites right now: 🇪🇸 Spain 51.8% · 🇦🇷 Argentina 20.8% · 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 18.8%
+the model's title favorites right now: 🇪🇸 Spain 55.8% · 🇦🇷 Argentina 27.8% · 🇫🇷 France 8.6%
 
-live track record: **63.4% W/D/L accuracy** (64/101 scored matches, random guessing gets 33.3%). every prediction locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
+live track record: **63.7% W/D/L accuracy** (65/102 scored matches, random guessing gets 33.3%). every prediction locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
 <!-- WC_END -->
 
 ## wordle, against my solver
