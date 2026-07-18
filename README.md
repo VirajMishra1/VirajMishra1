@@ -113,7 +113,7 @@ one shared board a day, six guesses, anyone can play. [open an issue with your g
 ⬜⬜⬜⬜⬜ `_ _ _ _ _`  
 
 2315 possible words remain. board resets at midnight UTC.
-yesterday's word: **BEGAN** (unsolved)
+yesterday's word: **RIPEN** (unsolved)
 <!-- WORDLE_END -->
 
 ## right now
