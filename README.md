@@ -95,28 +95,10 @@ the course projects live in private repos, but ask me about any of these:
 dixon-coles poisson model, fit on 13,779 matches. predictions locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
 
 <!-- WC_START -->
-🏆 spain won. model had them as title favorites throughout and called the final correctly.
+🏆 spain won. model called the final correctly: 🇪🇸 spain 62% vs 🇦🇷 argentina 38%, predicted 1-0, result 1-0.
 
-final (jul 19): 🇪🇸 spain 62% vs 🇦🇷 argentina 38%. predicted: 1-0. result: 1-0. direction ✓ score ✓
-
-final track record: **65.0% W/D/L accuracy** (67/103 matches, random guessing gets 33.3%).
+**68.8% W/D/L accuracy** on 80 pre-kickoff locked predictions (random guessing gets 33.3%). [full table](https://virajmishra1.github.io/worldcup-forecaster/)
 <!-- WC_END -->
-
-## wordle, against my solver
-
-one shared board a day, six guesses, anyone can play. [open an issue with your guess](https://github.com/VirajMishra1/VirajMishra1/issues/new?title=wordle+GUESS&body=replace+GUESS+in+the+title+with+your+five+letter+word%2C+then+submit.+the+bot+replies+in+about+30+seconds.) and a github action scores it, updates this board, and tells you what [my entropy solver](https://github.com/VirajMishra1/wordle-signal) would have played instead.
-
-<!-- WORDLE_START -->
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
-⬜⬜⬜⬜⬜ `_ _ _ _ _`  
-
-2315 possible words remain. board resets at midnight UTC.
-yesterday's word: **SPIKE** (unsolved)
-<!-- WORDLE_END -->
 
 ## right now
 
