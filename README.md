@@ -97,7 +97,7 @@ dixon-coles poisson model, fit on 13,779 matches. predictions locked to git befo
 <!-- WC_START -->
 🏆 spain won. model called the final correctly: 🇪🇸 spain 62% vs 🇦🇷 argentina 38%, predicted 1-0, result 1-0.
 
-**68.8% W/D/L accuracy** on 80 pre-kickoff locked predictions (random guessing gets 33.3%). [full table](https://virajmishra1.github.io/worldcup-forecaster/)
+**71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). [full table](https://virajmishra1.github.io/worldcup-forecaster/)
 <!-- WC_END -->
 
 ## right now
