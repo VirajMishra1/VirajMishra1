@@ -92,12 +92,14 @@ the course projects live in private repos, but ask me about any of these:
 
 ## wc 2026, according to my model
 
-this section rewrites itself daily from [worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)'s live numbers.
+dixon-coles poisson model, fit on 13,779 matches. predictions locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
 
 <!-- WC_START -->
-the model's title favorites right now: 🇪🇸 Spain 43.7% · 🇦🇷 Argentina 42.0% · 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 14.3%
+🏆 spain won. model had them as title favorites throughout and called the final correctly.
 
-live track record: **65.0% W/D/L accuracy** (67/103 scored matches, random guessing gets 33.3%). every prediction locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
+final (jul 19): 🇪🇸 spain 62% vs 🇦🇷 argentina 38%. predicted: 1-0. result: 1-0. direction ✓ score ✓
+
+final track record: **65.0% W/D/L accuracy** (67/103 matches, random guessing gets 33.3%).
 <!-- WC_END -->
 
 ## wordle, against my solver
