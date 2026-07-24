@@ -39,99 +39,24 @@ interested to work anywhere where the work is hard and shipped fast.
 
 *most of what's below is live. click around.*
 
-## 📈 [polymath](https://github.com/VirajMishra1/polymath)
+| | |
+|:--|:--|
+| 📈 **[polymath](https://github.com/VirajMishra1/polymath)** · [live](https://polymath-app.vercel.app)<br/>Bloomberg terminal for prediction markets, built at CMU TartanHacks. live orderbooks, arbitrage scanner, Monte Carlo sims, portfolio VaR. | 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** · [demo](https://x.com/virajm1shra/status/2059930318359109965)<br/>MCP server that turns Claude into a travel agent with memory. 66 tools, zero API keys. `pip install wander-agent` |
+| 🩺 **[medtrace](https://github.com/VirajMishra1/medtrace)** · [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)<br/>clinical decision support over 15,000 PMC-Patients records. hybrid BM25 + FAISS retrieval, 13-stage pipeline. Palantir build challenge. | ⚽ **[worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)** · [dashboard](https://virajmishra1.github.io/worldcup-forecaster/)<br/>Dixon-Coles Poisson model, fit on 13,779 matches. 71% W/D/L on 80 locked predictions, 78% in the knockouts. |
+| 📦 **[loadout](https://github.com/VirajMishra1/loadout)**<br/>the npm for AI coding agents, built at OpenAI Build Week. 12 agents, 241-repo catalog screened daily. `npm install -g loadout-ai` | 🔭 **[bench](https://github.com/VirajMishra1/bench)** · [live](https://bench.virajmishratakehome.workers.dev)<br/>observability for AI agents. wrap in one call: dashboard, LLM evals, failure clustering, README badge. |
+| 🦖 **[dino trainer](https://github.com/VirajMishra1/dino-trainer)** · [demo](https://x.com/virajm1shra/status/2054838345243775170)<br/>double DQN agent for Chrome dino. curriculum learning, behavior cloning warm start. avg score 167.95 — better than me. | 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** · [live](https://jarvis-air-bowl.vercel.app)<br/>bowling you play by swinging your arm at your webcam. MediaPipe swing tracking, Cannon.js physics. |
+| 🟩 **[wordle signal](https://github.com/VirajMishra1/wordle-signal)** · [demo](https://x.com/virajm1shra/status/2049239820233331010)<br/>Chrome extension that solves Wordle with Shannon entropy. also solves Sedecordle (16 boards at once). | 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** · [live](https://crisgo.vercel.app)<br/>crisis navigation, Columbia hackathon. Dijkstra routing with 600m penalty zones, AR camera nav. |
+| 📚 **[studybuddy](https://github.com/VirajMishra1/StudyBuddy)**<br/>upload a pdf, ask questions or generate a quiz. won best Streamlit + AI at HackPSU. | 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** · [live](https://sustain-a-prompt.vercel.app)<br/>paste a prompt, see energy/CO2/water cost, get a leaner version back. cuts tokens ~40%. won MLH Best Auth0 at PennApps. |
 
-Bloomberg terminal for prediction markets, built at CMU TartanHacks. [live](https://polymath-app.vercel.app)
+## wc 2026, according to my model
 
-live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven.
-
-<video src="https://github.com/user-attachments/assets/d113f1ed-1be9-4314-8537-83ddd603cefa" autoplay loop muted playsinline></video>
-
-## 🧳 [wander agent](https://github.com/VirajMishra1/wander-agent)
-
-MCP server that turns Claude into a travel agent with memory. `pip install wander-agent` · [demo](https://x.com/virajm1shra/status/2059930318359109965)
-
-66 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI.
-
-<video src="https://github.com/user-attachments/assets/7345a764-fb96-4023-a445-5b14ef1f29e4" autoplay loop muted playsinline></video>
-
-## 🩺 [medtrace](https://github.com/VirajMishra1/medtrace)
-
-clinical decision support over 15,000 PMC-Patients records. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
-
-hybrid BM25 + FAISS retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. Palantir build challenge.
-
-[![medtrace demo](https://img.youtube.com/vi/mpyxWMoXNaY/maxresdefault.jpg)](https://www.youtube.com/watch?v=mpyxWMoXNaY)
-
-## ⚽ [worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)
-
-wc 2026, according to my model. dixon-coles poisson model, fit on 13,779 matches. predictions locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
+dixon-coles poisson model, fit on 13,779 matches. predictions locked to git before kickoff. [full table + every scoreline](https://virajmishra1.github.io/worldcup-forecaster/)
 
 🏆 spain won. model called the final correctly: 🇪🇸 spain 62% vs 🇦🇷 argentina 38%, predicted 1-0, result 1-0.
 
 **71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). **78% in the knockouts** (25/32). time-decay weighting, Transfermarkt squad-value corrections, xG substitution for WC 2022.
 
 <img width="1221" height="73" alt="Image" src="https://github.com/user-attachments/assets/d5d57c80-6d59-4e73-b82c-966f96efe175" />
-
-## 📦 [loadout](https://github.com/VirajMishra1/loadout)
-
-the npm for AI coding agents, built at OpenAI Build Week. 12 agents (Claude Code, Codex, Cursor), 241-repo catalog screened daily, MIT. `npm install -g loadout-ai`
-
-reads the project and loads only what fits — agents stay sharp instead of drowning in thousands of extensions.
-
-[![loadout demo](https://img.youtube.com/vi/opNqJKX7xMw/maxresdefault.jpg)](https://www.youtube.com/watch?v=opNqJKX7xMw)
-
-## 🔭 [bench](https://github.com/VirajMishra1/bench)
-
-observability platform for AI agents. [live](https://bench.virajmishratakehome.workers.dev)
-
-wrap your agent in one call: live dashboard, LLM eval scores, failure clustering, README badge, public leaderboard. npm + PyPI SDKs, Cloudflare Workers + Durable Objects.
-
-[![arxiv-ai-digest on bench](https://bench.virajmishratakehome.workers.dev/badge/VirajMishra1/arxiv-ai-digest.svg)](https://bench.virajmishratakehome.workers.dev/u/VirajMishra1/arxiv-ai-digest)
-
-## 🦖 [dino trainer](https://github.com/VirajMishra1/dino-trainer)
-
-double DQN agent for Chrome dino. [demo](https://x.com/virajm1shra/status/2054838345243775170)
-
-trained from a 9-value state vector. curriculum learning, behavior cloning warm start, replay memory. avg score 167.95 over 20 eval episodes, which is better than me.
-
-<video src="https://github.com/user-attachments/assets/5b8a2bc1-cc2f-43c0-899e-cee6ec5517ca" autoplay loop muted playsinline></video>
-
-## 🎳 [jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)
-
-bowling you play by swinging your arm at your webcam. [live](https://jarvis-air-bowl.vercel.app)
-
-MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there.
-
-<video src="https://github.com/user-attachments/assets/fb9374c2-91d5-41fb-894c-e266236aef3d" autoplay loop muted playsinline></video>
-
-## 🟩 [wordle signal](https://github.com/VirajMishra1/wordle-signal)
-
-Chrome extension that solves Wordle with Shannon entropy. [demo](https://x.com/virajm1shra/status/2049239820233331010)
-
-feedback patterns encoded as base-3 integers. also solves Sedecordle (16 boards at once) with a hybrid early/endgame policy.
-
-<video src="https://github.com/user-attachments/assets/6df2228d-ee37-4c2b-9e1a-c9fffdd10a01" autoplay loop muted playsinline></video>
-
-## 🚨 [crisgo](https://github.com/VirajMishra1/CrisGo)
-
-crisis navigation built at Columbia's hackathon. [live](https://crisgo.vercel.app)
-
-5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting.
-
-<video src="https://github.com/user-attachments/assets/0f4bd575-4390-412c-8fc6-e8e1c13e61d3" autoplay loop muted playsinline></video>
-
-## 📚 [studybuddy](https://github.com/VirajMishra1/StudyBuddy)
-
-upload a pdf, ask it questions or generate a quiz.
-
-chunking, embeddings, FAISS similarity search, Gemini. won best Streamlit + AI integration at HackPSU.
-
-## 🌱 [sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)
-
-paste an LLM prompt, see what it costs in energy, CO2 and water, get a leaner version back. [live](https://sustain-a-prompt.vercel.app)
-
-cuts token usage by ~40%. won MLH's Best Use of Auth0 at PennApps.
 
 ## experience + research
 
@@ -159,7 +84,6 @@ the course projects live in private repos, but ask me about any of these:
 - 🔀 **Go-style buffered channels in C** - blocking and non-blocking send/receive plus a channel_select that multiplexes n channels at once, built on Pthreads mutexes, condition variables and a shared semaphore. CMPSC 473
 - 💬 **mycord** - multithreaded terminal messenger in C. concurrent Pthreads server, non-blocking TUI straight from termios and ioctl. CMPSC 311 final
 - 📐 **conformal prediction for regression** - ICP, CQR, jackknife and jackknife+ from scratch in Python. all four hit the 90% coverage target on heteroscedastic insurance data with zero distributional assumptions, CQR's adaptive intervals beat ICP's fixed-width bands, validated against MAPIE. MATH 415 honors project. [colab](https://colab.research.google.com/drive/1i310mljnIovhVaQYWi09W8PWgPB0r10x?usp=sharing)
-
 
 ## right now
 
