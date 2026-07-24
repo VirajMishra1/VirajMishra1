@@ -69,7 +69,7 @@ wc 2026, according to my model. dixon-coles poisson model, fit on 13,779 matches
 
 🏆 spain won. model called the final correctly: 🇪🇸 spain 62% vs 🇦🇷 argentina 38%, predicted 1-0, result 1-0.
 
-**71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). **75% in the knockouts** (18/24) — 6 exact scorelines, 10 in the top 3 predicted scores, 4 of 6 misses went to penalties. time-decay weighting, Transfermarkt squad-value corrections, xG substitution for WC 2022.
+**71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). **78% in the knockouts** (25/32) — 6 exact scorelines, 10 in the top 3 predicted scores. time-decay weighting, Transfermarkt squad-value corrections, xG substitution for WC 2022.
 
 <img width="1221" height="73" alt="Image" src="https://github.com/user-attachments/assets/d5d57c80-6d59-4e73-b82c-966f96efe175" />
 
