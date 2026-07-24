@@ -60,19 +60,25 @@ dixon-coles poisson model, fit on 13,779 matches. predictions locked to git befo
 
 ## experience + research
 
-💼 **SIG Group** - software and AI engineer intern, June 2025 to August 2025
+🏫 **Penn State** - undergraduate research assistant, Jan 2026 to present
 
-- built a scheduling platform with React and Flask that replaced Excel, cutting planning time from 3 hours to 30 minutes
-- deployed a RAG pipeline (Azure Search) over internal docs, so 130 engineers resolve queries instantly
-- fine tuned YOLOv8 for defect detection on Azure ML, hitting 84% precision with only 100 training samples
+*Dr. Qunhua Li & Dr. Cassandra Tai*
+- Example-RAG classifies political text by policy using retrieved labeled examples; no training needed
+- beats Halterman & Keith LoRA (F1 0.58 vs. 0.547), zero training; found 28% scoring error in their benchmark
+- co-authoring paper on Example-RAG with Dr. Li & Dr. Tai; submitted to AISI 2027
 
-🏫 **Penn State** - teaching assistant, August 2025 to present
+*Dr. Suman Saha — honors thesis*
+- benchmarking prompt injection attacks on LLM agents using InjecAgent across 17 attack tools and 197 test cases
+- developing a dual-agent isolation architecture that sandboxes untrusted input from tool execution
 
+*teaching assistant, August 2025 to present*
 - leading labs for 380+ students in digital logic design: Boolean algebra, FSMs, Verilog HDL
 
-🛡️ **llm agent security** - benchmarking prompt injection attacks across small Qwen models with InjecAgent, 17 attack tools and 197 test cases, under Dr. Suman Saha. building a Task/Guard dual-model architecture that decouples instruction from execution, with a stateless tool-call authorization layer so untrusted external content can't trigger tool calls
+💼 **SIG Group** - software and AI engineer intern, June 2025 to August 2025
 
-🗳️ **RAG for political science annotation** - testing whether RAG-based codebook retrieval improves zero-shot LLM annotation, extending Halterman & Keith (2025), under Dr. Qunhua Li and Dr. Cassandra Tai. automating annotation of 7,236 qualitative records with a FAISS pipeline, all-mpnet-base-v2 embeddings and Mistral 7B across three datasets (BFRS, CCC, Manifestos). 8 ablations across retrieval depth, prompt structure and model; best setup improves F1 by 0.175. presented at Penn State's undergraduate research conference
+- built a scheduling platform with React and Flask replacing Excel, reducing planning time from 3 hours to 30 minutes
+- deployed a RAG pipeline (Azure Search) over internal docs, enabling 130 engineers to resolve queries instantly
+- fine tuned YOLOv8 for defect detection on Azure ML, hitting 84% precision with only 100 training samples
 
 ## classwork
 
