@@ -71,6 +71,8 @@ wc 2026, according to my model. dixon-coles poisson model, fit on 13,779 matches
 
 **71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). time-decay weighting, Transfermarkt squad-value corrections, xG substitution for WC 2022.
 
+<img width="1221" height="73" alt="Image" src="https://github.com/user-attachments/assets/d5d57c80-6d59-4e73-b82c-966f96efe175" />
+
 ## 📦 [loadout](https://github.com/VirajMishra1/loadout)
 
 package manager for AI coding agent extensions. `npm install -g loadout-ai`
