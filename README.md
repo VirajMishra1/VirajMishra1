@@ -45,6 +45,8 @@ Bloomberg terminal for prediction markets. [live](https://polymath-app.vercel.ap
 
 live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven.
 
+<video src="https://github.com/user-attachments/assets/110e5055-48b9-4d72-b13d-75e4b6571170" autoplay loop muted playsinline></video>
+
 ## 🧳 [wander agent](https://github.com/VirajMishra1/wander-agent)
 
 MCP server that turns Claude into a travel agent with memory. `pip install wander-agent` · [demo](https://x.com/virajm1shra/status/2059930318359109965)
