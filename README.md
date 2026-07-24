@@ -75,7 +75,7 @@ wc 2026, according to my model. dixon-coles poisson model, fit on 13,779 matches
 
 ## 📦 [loadout](https://github.com/VirajMishra1/loadout)
 
-the npm for AI coding agents. 12 agents (Claude Code, Codex, Cursor), 241-repo catalog screened daily, MIT. `npm install -g loadout-ai`
+the npm for AI coding agents, built at OpenAI Build Week. 12 agents (Claude Code, Codex, Cursor), 241-repo catalog screened daily, MIT. `npm install -g loadout-ai`
 
 reads the project and loads only what fits — agents stay sharp instead of drowning in thousands of extensions.
 
