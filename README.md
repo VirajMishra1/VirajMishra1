@@ -51,7 +51,7 @@ live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted sprea
 
 MCP server that turns Claude into a travel agent with memory. `pip install wander-agent` · [demo](https://x.com/virajm1shra/status/2059930318359109965)
 
-60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI.
+66 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI.
 
 <video src="https://github.com/user-attachments/assets/7345a764-fb96-4023-a445-5b14ef1f29e4" autoplay loop muted playsinline></video>
 
@@ -60,6 +60,8 @@ MCP server that turns Claude into a travel agent with memory. `pip install wande
 clinical decision support over 15,000 PMC-Patients records. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
 
 hybrid BM25 + FAISS retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. Palantir build challenge.
+
+[![medtrace demo](https://img.youtube.com/vi/mpyxWMoXNaY/maxresdefault.jpg)](https://www.youtube.com/watch?v=mpyxWMoXNaY)
 
 ## ⚽ [worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)
 
