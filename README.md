@@ -69,15 +69,17 @@ wc 2026, according to my model. dixon-coles poisson model, fit on 13,779 matches
 
 🏆 spain won. model called the final correctly: 🇪🇸 spain 62% vs 🇦🇷 argentina 38%, predicted 1-0, result 1-0.
 
-**71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). **78% in the knockouts** (25/32) — 6 exact scorelines, 10 in the top 3 predicted scores. time-decay weighting, Transfermarkt squad-value corrections, xG substitution for WC 2022.
+**71% W/D/L accuracy** on 80 pre-kickoff locked predictions (57/80, random guessing gets 33.3%). **78% in the knockouts** (25/32). time-decay weighting, Transfermarkt squad-value corrections, xG substitution for WC 2022.
 
 <img width="1221" height="73" alt="Image" src="https://github.com/user-attachments/assets/d5d57c80-6d59-4e73-b82c-966f96efe175" />
 
 ## 📦 [loadout](https://github.com/VirajMishra1/loadout)
 
-package manager for AI coding agent extensions. `npm install -g loadout-ai`
+the npm for AI coding agents. 12 agents (Claude Code, Codex, Cursor), 241-repo catalog screened daily, MIT. `npm install -g loadout-ai`
 
-discover, install, update, and roll back skills and MCP tools across Claude Code, Codex, Cursor, and more.
+reads the project and loads only what fits — agents stay sharp instead of drowning in thousands of extensions.
+
+[![loadout demo](https://img.youtube.com/vi/opNqJKX7xMw/maxresdefault.jpg)](https://www.youtube.com/watch?v=opNqJKX7xMw)
 
 ## 🔭 [bench](https://github.com/VirajMishra1/bench)
 
