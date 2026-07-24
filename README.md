@@ -1,6 +1,6 @@
 # viraj mishra
 
-cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building cool stuff out of New York.
+cs + math @ Penn State, Schreyer Honors College. 4.0 GPA, graduating December 2026. building out of New York.
 
 ICPC team @ Penn State. PennApps winner (85+ teams). HackPSU winner. UKMT Senior Math Challenge gold (top 6% nationwide). researching LLM agent security and RAG for political science codebook annotation.
 
