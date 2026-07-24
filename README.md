@@ -53,6 +53,8 @@ MCP server that turns Claude into a travel agent with memory. `pip install wande
 
 60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI.
 
+<video src="https://github.com/user-attachments/assets/7345a764-fb96-4023-a445-5b14ef1f29e4" autoplay loop muted playsinline></video>
+
 ## 🩺 [medtrace](https://github.com/VirajMishra1/medtrace)
 
 clinical decision support over 15,000 PMC-Patients records. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
