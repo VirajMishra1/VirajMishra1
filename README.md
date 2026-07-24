@@ -95,11 +95,15 @@ double DQN agent for Chrome dino. [demo](https://x.com/virajm1shra/status/205483
 
 trained from a 9-value state vector. curriculum learning, behavior cloning warm start, replay memory. avg score 167.95 over 20 eval episodes, which is better than me.
 
+<video src="https://github.com/user-attachments/assets/0f4bd575-4390-412c-8fc6-e8e1c13e61d3" autoplay loop muted playsinline></video>
+
 ## 🎳 [jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)
 
 bowling you play by swinging your arm at your webcam. [live](https://jarvis-air-bowl.vercel.app)
 
 MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there.
+
+<video src="https://github.com/user-attachments/assets/fb9374c2-91d5-41fb-894c-e266236aef3d" autoplay loop muted playsinline></video>
 
 ## 🟩 [wordle signal](https://github.com/VirajMishra1/wordle-signal)
 
@@ -107,11 +111,15 @@ Chrome extension that solves Wordle with Shannon entropy. [demo](https://x.com/v
 
 feedback patterns encoded as base-3 integers. also solves Sedecordle (16 boards at once) with a hybrid early/endgame policy.
 
+<video src="https://github.com/user-attachments/assets/6df2228d-ee37-4c2b-9e1a-c9fffdd10a01" autoplay loop muted playsinline></video>
+
 ## 🚨 [crisgo](https://github.com/VirajMishra1/CrisGo)
 
 crisis navigation built at Columbia's hackathon. [live](https://crisgo.vercel.app)
 
 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting.
+
+<video src="https://github.com/user-attachments/assets/5b8a2bc1-cc2f-43c0-899e-cee6ec5517ca" autoplay loop muted playsinline></video>
 
 ## 📚 [studybuddy](https://github.com/VirajMishra1/StudyBuddy)
 
