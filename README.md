@@ -41,7 +41,7 @@ interested to work anywhere where the work is hard and shipped fast.
 
 ## 📈 [polymath](https://github.com/VirajMishra1/polymath)
 
-Bloomberg terminal for prediction markets. [live](https://polymath-app.vercel.app)
+Bloomberg terminal for prediction markets, built at CMU TartanHacks. [live](https://polymath-app.vercel.app)
 
 live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven.
 
