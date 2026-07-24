@@ -39,30 +39,22 @@ interested to work anywhere where the work is hard and shipped fast.
 
 *most of what's below is live. click around.*
 
-## start here
+## projects
 
 - 📈 **[polymath](https://github.com/VirajMishra1/polymath)** - Bloomberg terminal for prediction markets. live Polymarket orderbooks, arbitrage scanner ranked by liquidity-weighted spread, 500-path Monte Carlo sims, portfolio VaR, orderbook-walking slippage in bps. keyboard driven. [live](https://polymath-app.vercel.app)
 - 🧳 **[wander agent](https://github.com/VirajMishra1/wander-agent)** - MCP server that turns Claude into a travel agent with memory. 60 tools, zero API keys: flights, hidden city fares, visas, advisories, weather. tested on Python 3.10-3.12 in CI. `pip install wander-agent`. [demo](https://x.com/virajm1shra/status/2059930318359109965)
+- 🩺 **[medtrace](https://github.com/VirajMishra1/medtrace)** - clinical decision support over 15,000 PMC-Patients records. hybrid BM25 + FAISS retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. Palantir build challenge. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
+- ⚽ **[worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)** - Dixon-Coles Poisson model fit on 13,779 international matches with time-decay weighting, Transfermarkt squad-value corrections, and xG substitution for WC 2022. predictions locked to git 60 minutes before kickoff and never edited. 71% W/D/L accuracy on 80 pre-kickoff predictions. [dashboard](https://virajmishra1.github.io/worldcup-forecaster/)
+- 📦 **[loadout](https://github.com/VirajMishra1/loadout)** - package manager for AI coding agent extensions. discover, install, update, and roll back skills and MCP tools across Claude Code, Codex, Cursor, and more. `npm install -g loadout-ai`
 - 🔭 **[bench](https://github.com/VirajMishra1/bench)** - observability platform for AI agents. wrap your agent in one call: live dashboard, LLM eval scores, failure clustering, README badge, public leaderboard. npm + PyPI SDKs, Cloudflare Workers + Durable Objects. [live](https://bench.virajmishratakehome.workers.dev)
 
   [![arxiv-ai-digest on bench](https://bench.virajmishratakehome.workers.dev/badge/VirajMishra1/arxiv-ai-digest.svg)](https://bench.virajmishratakehome.workers.dev/u/VirajMishra1/arxiv-ai-digest)
-- 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
-- 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
-
-## ml + retrieval
-
-- ⚽ **[worldcup-forecaster](https://github.com/VirajMishra1/worldcup-forecaster)** - Dixon-Coles Poisson model fit on 13,779 international matches with time-decay weighting, Transfermarkt squad-value corrections, and xG substitution for WC 2022. predictions locked to git 60 minutes before kickoff and never edited. 10k Monte Carlo bracket sims updated live. 62.5% W/D/L accuracy on WC 2026 so far. [dashboard](https://virajmishra1.github.io/worldcup-forecaster/)
 - 🦖 **[dino trainer](https://github.com/VirajMishra1/dino-trainer)** - double DQN agent for Chrome dino, trained from a 9-value state vector. curriculum learning, behavior cloning warm start, replay memory. avg score 167.95 over 20 eval episodes, which is better than me. [demo](https://x.com/virajm1shra/status/2054838345243775170)
-- 🩺 **[medtrace](https://github.com/VirajMishra1/medtrace)** - clinical decision support over 15,000 PMC-Patients records. hybrid BM25 + FAISS retrieval with reciprocal rank fusion, 13-stage pipeline, all inference local so patient data never leaves the machine. Palantir build challenge. [demo](https://www.youtube.com/watch?v=mpyxWMoXNaY)
-- 📚 **[studybuddy](https://github.com/VirajMishra1/StudyBuddy)** - upload a pdf, ask it questions or generate a quiz. chunking, embeddings, FAISS similarity search, Gemini. won best Streamlit + AI integration at HackPSU
-
-## solvers, games, experiments
-
+- 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
 - 🟩 **[wordle signal](https://github.com/VirajMishra1/wordle-signal)** - Chrome extension that solves Wordle with Shannon entropy, feedback patterns encoded as base-3 integers. also solves Sedecordle (16 boards at once) with a hybrid early/endgame policy. [demo](https://x.com/virajm1shra/status/2049239820233331010)
-- 🐍 **[kinsnake](https://github.com/VirajMishra1/kinsnake)** - snake you steer by pointing your finger. React over WebSocket to FastAPI, which talks to a C process over named pipes. built with friends for a systems class
-- 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** - paste an LLM prompt, see what it costs in energy, CO2 and water, get a leaner version back. cuts token usage by ~40%. won MLH's Best Use of Auth0 at PennApps. [live](https://sustain-a-prompt.vercel.app)
+- 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
 
-## experience
+## experience + research
 
 💼 **SIG Group** - software and AI engineer intern, June 2025 to August 2025
 
@@ -74,6 +66,10 @@ interested to work anywhere where the work is hard and shipped fast.
 
 - leading labs for 380+ students in digital logic design: Boolean algebra, FSMs, Verilog HDL
 
+🛡️ **llm agent security** - benchmarking prompt injection attacks across small Qwen models with InjecAgent, 17 attack tools and 197 test cases, under Dr. Suman Saha. building a Task/Guard dual-model architecture that decouples instruction from execution, with a stateless tool-call authorization layer so untrusted external content can't trigger tool calls
+
+🗳️ **RAG for political science annotation** - testing whether RAG-based codebook retrieval improves zero-shot LLM annotation, extending Halterman & Keith (2025), under Dr. Qunhua Li and Dr. Cassandra Tai. automating annotation of 7,236 qualitative records with a FAISS pipeline, all-mpnet-base-v2 embeddings and Mistral 7B across three datasets (BFRS, CCC, Manifestos). 8 ablations across retrieval depth, prompt structure and model; best setup improves F1 by 0.175. presented at Penn State's undergraduate research conference
+
 ## classwork
 
 the course projects live in private repos, but ask me about any of these:
@@ -84,11 +80,6 @@ the course projects live in private repos, but ask me about any of these:
 - 🔀 **Go-style buffered channels in C** - blocking and non-blocking send/receive plus a channel_select that multiplexes n channels at once, built on Pthreads mutexes, condition variables and a shared semaphore. CMPSC 473
 - 💬 **mycord** - multithreaded terminal messenger in C. concurrent Pthreads server, non-blocking TUI straight from termios and ioctl. CMPSC 311 final
 - 📐 **conformal prediction for regression** - ICP, CQR, jackknife and jackknife+ from scratch in Python. all four hit the 90% coverage target on heteroscedastic insurance data with zero distributional assumptions, CQR's adaptive intervals beat ICP's fixed-width bands, validated against MAPIE. MATH 415 honors project. [colab](https://colab.research.google.com/drive/1i310mljnIovhVaQYWi09W8PWgPB0r10x?usp=sharing)
-
-## research
-
-- 🛡️ **llm agent security** - benchmarking prompt injection attacks across small Qwen models with InjecAgent, 17 attack tools and 197 test cases, under Dr. Suman Saha. building a Task/Guard dual-model architecture that decouples instruction from execution, with a stateless tool-call authorization layer so untrusted external content can't trigger tool calls
-- 🗳️ **RAG for political science annotation** - testing whether RAG-based codebook retrieval improves zero-shot LLM annotation, extending Halterman & Keith (2025), under Dr. Qunhua Li and Dr. Cassandra Tai. automating annotation of 7,236 qualitative records with a FAISS pipeline, all-mpnet-base-v2 embeddings and Mistral 7B across three datasets (BFRS, CCC, Manifestos). 8 ablations across retrieval depth, prompt structure and model; best setup improves F1 by 0.175. presented at Penn State's undergraduate research conference
 
 ## wc 2026, according to my model
 
