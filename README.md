@@ -53,6 +53,8 @@ interested to work anywhere where the work is hard and shipped fast.
 - 🎳 **[jarvis air bowl](https://github.com/VirajMishra1/jarvis-air-bowl)** - bowling you play by swinging your arm at your webcam. MediaPipe tracks the swing, hand velocity history becomes hook spin and axis tilt, Cannon.js takes it from there. [live](https://jarvis-air-bowl.vercel.app)
 - 🟩 **[wordle signal](https://github.com/VirajMishra1/wordle-signal)** - Chrome extension that solves Wordle with Shannon entropy, feedback patterns encoded as base-3 integers. also solves Sedecordle (16 boards at once) with a hybrid early/endgame policy. [demo](https://x.com/virajm1shra/status/2049239820233331010)
 - 🚨 **[crisgo](https://github.com/VirajMishra1/CrisGo)** - crisis navigation built at Columbia's hackathon. 5 LangChain agents score incident credibility, Dijkstra routing with 600m penalty zones steers you around danger. AR camera nav + voice incident reporting. [live](https://crisgo.vercel.app)
+- 📚 **[studybuddy](https://github.com/VirajMishra1/StudyBuddy)** - upload a pdf, ask it questions or generate a quiz. chunking, embeddings, FAISS similarity search, Gemini. won best Streamlit + AI integration at HackPSU
+- 🌱 **[sustain-a-prompt](https://github.com/VirajMishra1/sustain-a-prompt)** - paste an LLM prompt, see what it costs in energy, CO2 and water, get a leaner version back. cuts token usage by ~40%. won MLH's Best Use of Auth0 at PennApps. [live](https://sustain-a-prompt.vercel.app)
 
 ## experience + research
 
